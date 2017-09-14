@@ -1,19 +1,20 @@
-# Simple View
+# Simple Map For Position Visualisation
+
+**As part of the Continental Hackathon 2017**
 
 Prerequesite:
 
 - [nodejs version 6.11.x](https://nodejs.org/en/download/)
 
 ## Description
-This is a App that visualizes the position of the car as the video plays.
-The OBD Worker and the Vodeo Worker must be running.
+This is an app that visualizes the position of the car as the video plays.
+The OBD Worker and the Video Worker must be running.
 It sets the persona (hardcoded) and then listens to the position of the car.
 
 ## Quickstart
 
-Install:
 
-1. Install the Frontend (leaflet will be installed):
+1. Install the frontend:
 ```
 cd public
 npm install
@@ -24,21 +25,27 @@ cd ..
 npm install
 ```
 
-Change the IP / Domain of the router in /public/index.html
-
+3. Change the IP / Domain of the router in `/public/index.html`
 ```
 var mapsf = new MapServiceFrontend('localhost');
 ```
 
-start app server
+4. Change the persona in `/public/map.js`
+```
+// persona name is hardcoded here
+this.persona = 'persona_4';
+```
+
+5. start the odb_worker and video_worker.
+
+6. Open video app in browser
+
+7. start map app server:
 ```
 node mapapp.js
 ```
 
-1. start the odb_worker and video_worker.
-2. open the displayed URL in the browser.
-3. The corresponding video should get loaded automaticly
-4. Start the video... watch the map... ;)
+8. Start the video... watch the map... ;)
 
 
 ## Internas
