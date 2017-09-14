@@ -2,16 +2,17 @@
 
 **As part of the Continental Hackathon 2017**
 
-Prerequesite:
+Uses:
 
-- [nodejs version 6.11.x](https://nodejs.org/en/download/)
+- odb worker
+- video worker
 
 ## Description
 This is an app that visualizes the position of the car as the video plays.
 The OBD Worker and the Video Worker must be running.
 It sets the persona (hardcoded) and then listens to the position of the car.
 
-## Quickstart
+## How To Use
 
 
 1. Install the frontend:
@@ -45,7 +46,12 @@ this.persona = 'persona_4';
 node mapapp.js
 ```
 
-8. Start the video... watch the map... ;)
+8. Open the Map App in browser
+
+9. Start the video... watch the map... ;)
+
+10. There is no 10.
+
 
 
 ## Internas
