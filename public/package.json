@@ -1,0 +1,12 @@
+{
+  "name": "map_service_frontend",
+  "version": "1.0.0",
+  "description": "a own polymer component",
+  "keywords": [
+  ],
+  "author": "Stefan Beyer",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "1.2.0"
+  }
+}

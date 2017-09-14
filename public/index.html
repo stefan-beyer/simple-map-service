@@ -1,0 +1,36 @@
+<!--
+***************************************************************************************************************-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Visualisation of Vehicle Position</title>
+    <script src="autobahn.min.js"></script>
+    <link rel="stylesheet" href="/node_modules/leaflet/dist/leaflet.css"/>
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="/node_modules/leaflet/dist/leaflet.js"></script>
+   
+    <script src="map.js"></script>
+    
+   <style>
+       html, body {height:100%; width:100%; padding:0; margin:0;}
+       #mapid {height:100%;}
+   </style>
+</head>
+
+<body>
+    <!--
+    <select onchange="sendpersona(this.value)" id="persona">
+        <option value="dummy">Select Persona</option>
+        <option value="persona_1">Persona 1</option>    
+        <option value="persona_2">Persona 2</option>
+        <option value="persona_3">Persona 3</option>
+        <option value="persona_4">Persona 4</option>
+    </select>-->
+    <div id="mapid"></div>
+    <script>
+        // Set the ip / domain of the router here
+        var mapsf = new MapServiceFrontend('localhost');
+    </script>
+</body>
+</html
