@@ -4,7 +4,7 @@
 
 Uses:
 
-- odb worker
+- obd worker
 - video worker
 
 ## Description
@@ -59,3 +59,7 @@ node mapapp.js
 - calls conti.videoplayer.source to set the persona
 - notifys (publish) conti.wamp2polymer.persona about the persona
 - subscribes to conti.obdserver.coordinates for coordinates
+
+## Trivia
+
+I think that the data for persona 3 does not match with the video for persona 3.
